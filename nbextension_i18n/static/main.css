@@ -1,0 +1,17 @@
+/* nbextension_i18n */
+
+div[lang] {
+    margin-bottom: 1em;
+}
+
+.nbex-i18n-default div[lang] {
+    display: none;
+}
+
+.nbex-i18n-ja div[lang=ja] {
+    display: block;
+}
+
+.nbex-i18n-en div[lang=en] {
+    display: block;
+}
