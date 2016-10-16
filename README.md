@@ -37,4 +37,10 @@ English
 </p>
 ```
 
+You can also apply `lang` attribute to inline elements.
+
+```
+1. <span lang="en">English</span> <span lang="ja">日本語</span>
+```
+
 When you choose `lang:ja` from the dropdown, the browser shows only elements which have attribute `lang="ja"`.
