@@ -39,10 +39,10 @@ define(["require", "jquery", "base/js/namespace"], function (require, $, IPython
       ]);
       $('#lang_button').parent('.btn-group').append($('<select id="lang_list" class="form-control select-xs"></select>'));
       $('#lang_button').hide();
-      $('#lang_list').append($('<option value="">ALL</option>'));
+      $('#lang_list').append($('<option value="">lang:ALL</option>'));
       LANGUAGES.forEach(function(lang) {
               $('#lang_list').append($('<option value="' + lang + '">'
-                                       + lang + '</option>'));
+                                       + 'lang:' + lang + '</option>'));
           });
 
       $('#lang_list').change(switch_lang);
