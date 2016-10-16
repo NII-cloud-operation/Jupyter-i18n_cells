@@ -29,12 +29,12 @@ After these commands, run `jupyter notebook` command. Then the language-dropdown
 To use this extension, You should set a `lang` attribute to specify language as below.
 
 ```
-<div lang="en">
+<p lang="en">
 English
-</div>
-<div lang="ja">
+</p>
+<p lang="ja">
 日本語
-</div>
+</p>
 ```
 
 When you choose `lang:ja` from the dropdown, the browser shows only elements which have attribute `lang="ja"`.
