@@ -1,17 +1,26 @@
 /* nbextension_i18n */
 
-div[lang] {
-    margin-bottom: 1em;
-}
-
-.nbex-i18n-default div[lang] {
+.nbex-i18n-default p[lang] {
     display: none;
 }
 
-.nbex-i18n-ja div[lang=ja] {
+.nbex-i18n-ja p[lang=ja] {
     display: block;
 }
 
-.nbex-i18n-en div[lang=en] {
+.nbex-i18n-en p[lang=en] {
     display: block;
 }
+
+.nbex-i18n-default span[lang] {
+    display: none;
+}
+
+.nbex-i18n-ja span[lang=ja] {
+    display: inline;
+}
+
+.nbex-i18n-en span[lang=en] {
+    display: inline;
+}
+
