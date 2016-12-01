@@ -57,7 +57,7 @@ https://github.com/yacchin1205/nbextension_i18n/blob/master/nbextension_i18n/sta
   var LANGUAGES = ['ja', 'en'];
 ```
 
-If you would like to describe in [Klingon](https://en.wikipedia.org/wiki/Klingon_language) (defined as `tlh` in ISO 639-2, awesome)..., you should edit it like below:
+If you would like to describe in [Klingon](https://en.wikipedia.org/wiki/Klingon_language) (defined as `tlh` in ISO 639-2, awesome!)..., you should edit it like below:
 
 ```js
   var LANGUAGES = ['ja', 'en', 'tlh'];
