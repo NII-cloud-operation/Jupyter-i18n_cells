@@ -45,3 +45,20 @@ You can also apply `lang` attribute to inline elements.
 ```
 
 When you choose `lang:ja` from the dropdown, the browser shows only elements which have attribute `lang="ja"`.
+
+# Add your languages to the dropdown
+
+By default, the choosable languages are only `en` and `ja`.
+
+To add your (favorite) languages, you can modify `LANGUAGES` variable in `main.js`. 
+
+https://github.com/yacchin1205/nbextension_i18n/blob/master/nbextension_i18n/static/main.js#L5
+```js
+  var LANGUAGES = ['ja', 'en'];
+```
+
+If you would like to describe in [Klingon](https://en.wikipedia.org/wiki/Klingon_language) (defined as `tlh` in ISO 639-2)..., you should edit it like below:
+
+```js
+  var LANGUAGES = ['ja', 'en', 'tlh'];
+```
