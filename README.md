@@ -27,7 +27,7 @@ After these commands, run `jupyter notebook` command. Then the language-dropdown
 
 # How to use
 
-To use this extension, You should set a `lang` attribute to specify language as below.
+To use this extension, You should set a `lang` attribute to specify language in a markdown cell as below.
 
 ```
 <p lang="en">
