@@ -1,4 +1,4 @@
-# Jupyter-multi-languages
+# Jupyter-multi_languages
 
 Jupyter Notebook extension to Show/Hide elements in Markdown by Language.
 
