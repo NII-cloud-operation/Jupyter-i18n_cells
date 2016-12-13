@@ -1,5 +1,4 @@
-# Jupyter-multi_languages
-
+# Jupyter-i18n_cells
 Jupyter Notebook extension to Show/Hide elements in Markdown by Language.
 
 ![demo](https://raw.githubusercontent.com/yacchin1205/nbextension_i18n/master/demo.gif)
