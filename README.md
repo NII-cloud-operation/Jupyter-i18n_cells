@@ -22,8 +22,8 @@ $ pip install git+https://github.com/yacchin1205/nbextension_i18n.git
 
 
 ```
-$ jupyter nbextension install --py nbextension_i18n
-$ jupyter nbextension enable --py nbextension_i18n
+$ jupyter nbextension install --py nbextension_i18n_cells
+$ jupyter nbextension enable --py nbextension_i18n_cells
 ```
 
 Once installed and enabled a language-dropdown box will appear in the toolbar.

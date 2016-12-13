@@ -1,1 +1,1 @@
-include nbextension_i18n/static/*
+include nbextension_i18n_cells/static/*
