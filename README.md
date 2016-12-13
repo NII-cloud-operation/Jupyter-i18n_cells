@@ -1,29 +1,33 @@
-# nbextension_i18n
+# Jupyter-multi-languages
 
 Jupyter Notebook extension to Show/Hide elements in Markdown by Language.
 
 ![demo](https://raw.githubusercontent.com/yacchin1205/nbextension_i18n/master/demo.gif)
 
+Usually we write a Notebook in both Japanese and English,
+because Japanese descriptions are necessary for communication between team members and also English ones are for publishing on GitHub.
+
+Such a Notebook is not always easy-to-read, so we would like to filter markdown blocks by language...!
+
 # How to install
 
 ## Install the python package
 
-The package have not been uploaded to PyPI yet, so you should clone this repository and install it using pip.
+This package has't prepared for PyPI yet, please clone this repository and install by yourself.
 
 ```
 $ pip install git+https://github.com/yacchin1205/nbextension_i18n.git
 ```
 
-## Install and Enable the extension in the package
+## Install and Enable this extension
 
-You can install and enable the extension using `jupyter nbextension` command.
 
 ```
 $ jupyter nbextension install --py nbextension_i18n
 $ jupyter nbextension enable --py nbextension_i18n
 ```
 
-After these commands, run `jupyter notebook` command. Then the language-dropdown box will appear in the toolbar.
+Once installed and enabled a language-dropdown box will appear in the toolbar.
 
 # How to use
 
