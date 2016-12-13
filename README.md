@@ -6,7 +6,7 @@ Jupyter Notebook extension to Show/Hide elements in Markdown by Language.
 Usually we write a Notebook in both Japanese and English,
 because Japanese descriptions are necessary for communication between team members and also English ones are for publishing on GitHub.
 
-Such a Notebook is not always easy-to-read, so we would like to filter markdown blocks by language...!
+Such a Notebook is not easy-to-read, so we would like to filter markdown cells by language...!
 
 # How to install
 
