@@ -1,12 +1,28 @@
 # Jupyter-i18n_cells
-Jupyter Notebook extension to Show/Hide elements in Markdown by Language.
+Jupyter Notebook extension to manage multilingal-notebooks, which cells hold multilingal contents divided by div/span tags as follows;
+
+```
+<p lang="en">
+English
+</p>
+<p lang="ja">
+日本語
+</p>
+```
+
+This extension select language to be displayed;
 
 ![demo](https://raw.githubusercontent.com/yacchin1205/nbextension_i18n/master/demo.gif)
 
-Usually we write a Notebook in both Japanese and English,
-because Japanese descriptions are necessary for communication among team members and also English ones are for publishing on GitHub.
+Notebooks are powerful tools for communication, thus the muitilingal capability is inevitable but (Standard) Jupyter Notebook lacks the capacity.
 
-We feel that such a Notebook is not easy-to-read, so we have developed an extension to filter markdown cells and realize simplified view.
+In order to create multilingal-notebook, we write markdowns in several languages using div(span) tags with the lang attribute.
+With this extension, for communication among team members in Japan, they can read the markdowns mainly with Japanese descriptions, though we show English ones for an exhibition.
+
+Notebookはコミュニケーションのための強力なツールであるため、多言語化は不可欠ですが、(標準的な)Jupyter Notebookは多言語化の仕組みを備えていません。
+多言語化したNotebookを実現するため、lang属性付きのdiv(span)要素で複数言語の説明を記述するようにしています。
+このExtensionにより、日本のチームメンバー同士のコミュニケーションでは日本語で説明を読むことができ、一方展示会などでは英語の説明を示すことができるようになります。
+
 
 # How to install
 
