@@ -55,7 +55,7 @@ By default, the choosable languages are only `en` and `ja`.
 
 To add your (favorite) languages, you can modify `LANGUAGES` variable in `main.js`. 
 
-https://github.com/yacchin1205/nbextension_i18n/blob/master/nbextension_i18n/static/main.js#L5
+https://github.com/yacchin1205/nbextension_i18n/blob/master/nbextension_i18n_cells/static/main.js#L5
 ```js
   var LANGUAGES = ['ja', 'en'];
 ```
