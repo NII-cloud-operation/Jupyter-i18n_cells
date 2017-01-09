@@ -12,7 +12,7 @@ English
 
 This extension select language to be displayed;
 
-![demo](https://raw.githubusercontent.com/yacchin1205/nbextension_i18n/master/demo.gif)
+![demo](https://raw.githubusercontent.com/NII-cloud-operation/Jupyter-i18n_cells/master/demo.gif)
 
 Notebooks are powerful tools for communication, thus the muitilingal capability is inevitable but (Standard) Jupyter Notebook lacks the capacity.
 
@@ -32,7 +32,7 @@ Notebookはコミュニケーションのための強力なツールであるた
 This package has't prepared for PyPI yet, please clone this repository and install by yourself.
 
 ```
-$ pip install git+https://github.com/yacchin1205/nbextension_i18n.git
+$ pip install git@github.com:NII-cloud-operation/Jupyter-i18n_cells.git
 ```
 
 ## Install and Enable this extension
@@ -72,7 +72,7 @@ By default, the choosable languages are only `en` and `ja`.
 
 To add your (favorite) languages, you can modify `LANGUAGES` variable in `main.js`. 
 
-https://github.com/yacchin1205/nbextension_i18n/blob/master/nbextension_i18n_cells/static/main.js#L5
+https://github.com/NII-cloud-operation/Jupyter-i18n_cells/blob/master/nbextension_i18n_cells/static/main.js#L5
 ```js
   var LANGUAGES = ['ja', 'en'];
 ```
