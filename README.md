@@ -32,7 +32,7 @@ Notebookはコミュニケーションのための強力なツールであるた
 This package has't prepared for PyPI yet, please clone this repository and install by yourself.
 
 ```
-$ pip install git@github.com:NII-cloud-operation/Jupyter-i18n_cells.git
+$ pip install git+https://github.com/NII-cloud-operation/Jupyter-i18n_cells.git
 ```
 
 ## Install and Enable this extension
