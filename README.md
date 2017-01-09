@@ -1,5 +1,5 @@
 # Jupyter-i18n_cells
-Jupyter Notebook extension to manage multilingal-notebooks, which cells hold multilingal contents divided by div/span tags as follows;
+Jupyter Notebook extension to manage multilingal-notebooks, which cells hold multilingal contents divided by p/span tags as follows;
 
 ```
 <p lang="en">
@@ -16,12 +16,12 @@ This extension select language to be displayed;
 
 Notebooks are powerful tools for communication, thus the muitilingal capability is inevitable but (Standard) Jupyter Notebook lacks the capacity.
 
-In order to create multilingal-notebook, we write markdowns in several languages using div(span) tags with the lang attribute.
+In order to create multilingal-notebook, we write markdowns in several languages using p(span) tags with the lang attribute.
 With this extension, for communication among team members in Japan, they can read the markdowns mainly with Japanese descriptions, though we show English ones for an exhibition.
 
 Notebookはコミュニケーションのための強力なツールであるため、多言語化は不可欠ですが、(標準的な)Jupyter Notebookは多言語化の仕組みを備えていません。
 
-多言語化したNotebookを実現するため、lang属性付きのdiv(span)要素で複数言語の説明を記述するようにしています。
+多言語化したNotebookを実現するため、lang属性付きのp(span)要素で複数言語の説明を記述するようにしています。
 このExtensionにより、日本のチームメンバー同士のコミュニケーションでは日本語で説明を読むことができ、一方展示会などでは英語の説明を示すことができるようになります。
 
 
